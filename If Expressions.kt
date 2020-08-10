@@ -1,14 +1,14 @@
 fun main (){
-    val openHours =  75
-    val now = 60
+    val kkm =  70
+    val nilai = 60
     val kata = "Nilai Kamu "
     val school : String
-    school = if (now < 70) {
+    school = if (kkm <=70) {
         " Silahkan ikut remidial"
-    } else if (now == openHours){
+    } else if (nilai == kkm){
         " Tuntas"
     } else {
         " Selamat Ya!"
     }
-    print(kata+now+school)
+    print(kata+nilai+school)
 }
