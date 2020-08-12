@@ -1,11 +1,5 @@
-fun main (){
-    val sekolah = "SMK Telkom Purwokerto berdiri pada tanggal "
-    val bulan = " Januari"
-    val kata = ".That’s true bro."
-    val intArrays = intArrayOf(10,20,30,1992,1993,1994)
-    println(sekolah)
-    print(intArrays[2])
-    println(bulan)
-    print(intArrays[4])
-    println(kata)
+fun main () {
+    val mixInfo = arrayOf(30,"Januari",1993,"SMK Telkom Purwokerto",true)
+
+    println(""+ mixInfo[3]+"berdiri pada tanggal "+mixInfo[0]+" "+mixInfo[1]+" "+mixInfo[2]+".")
 }
